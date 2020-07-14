@@ -209,11 +209,11 @@
 </package>
 <package name="AXIAL">
 <pad name="P$1" x="0" y="0" drill="0.6"/>
-<pad name="P$2" x="7.9" y="0" drill="0.6"/>
-<wire x1="0.75" y1="0.9" x2="0.75" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="0.75" y1="-0.9" x2="7.05" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="7.05" y1="-0.9" x2="7.05" y2="0.9" width="0.127" layer="21"/>
-<wire x1="7.05" y1="0.9" x2="0.75" y2="0.9" width="0.127" layer="21"/>
+<pad name="P$2" x="13" y="0" drill="0.6"/>
+<wire x1="0.72" y1="2" x2="0.75" y2="-2.08" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-2.08" x2="12.2" y2="-2.08" width="0.127" layer="21"/>
+<wire x1="12.2" y1="-2.08" x2="12.17" y2="2" width="0.127" layer="21"/>
+<wire x1="12.17" y1="2" x2="0.72" y2="2" width="0.127" layer="21"/>
 <text x="1.75" y="-0.3" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 </packages>
@@ -382,7 +382,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="HVA05FA100M" prefix="R" uservalue="yes">
+<deviceset name="HVA12FA100M" prefix="R" uservalue="yes">
 <description>100 MOhms ±1% 0.5W, 1/2W Through Hole Resistor Axial High Voltage Metal Film</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
