@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -492,7 +492,7 @@ Modeled by Athar Zafeer</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITORSMDC5750" prefix="SMD" uservalue="yes">
+<deviceset name="CAPACITORSMDC5750" prefix="C" uservalue="yes">
 <description>Middle voltage C series, commercial grade of TDK's multilayer ceramic chip capacitor, is a product which has the high withstanding voltage characteristics.&lt;br&gt; The lineup is voltage rating of 100V to 630V with capacitance range up to 22µF.
 &lt;br&gt;
 &lt;a href="https://www.digikey.in/product-detail/en/C5750X6S2W225K250KA/445-7781-1-ND/2733853/?itemSeq=327727969"&gt; Product link (digikey) &lt;/a&gt;
@@ -573,7 +573,7 @@ Model by Athar Zafeer</description>
 <technologies>
 <technology name="">
 <attribute name="MFR" value="Vishay / Dale" constant="no"/>
-<attribute name="MFRNO" value="ROX300200MFNF5" constant="no"/>
+<attribute name="MFRNO" value="ROX300100MFNF5" constant="no"/>
 <attribute name="POWER" value="10w" constant="no"/>
 <attribute name="R" value="200 MOhms" constant="no"/>
 <attribute name="TOLERENCE" value="1%" constant="no"/>

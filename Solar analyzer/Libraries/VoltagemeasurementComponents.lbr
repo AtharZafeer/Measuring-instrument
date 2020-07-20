@@ -216,6 +216,16 @@
 <wire x1="12.17" y1="2" x2="0.72" y2="2" width="0.127" layer="21"/>
 <text x="1.75" y="-0.3" size="0.8128" layer="25">&gt;NAME</text>
 </package>
+<package name="ROX1001K00FKLB">
+<pad name="P$1" x="0" y="0" drill="0.87"/>
+<pad name="P$2" x="26" y="0" drill="0.87"/>
+<wire x1="0.83" y1="3.89" x2="24.96" y2="3.89" width="0.127" layer="21"/>
+<wire x1="24.96" y1="3.89" x2="24.96" y2="-3.89" width="0.127" layer="21"/>
+<wire x1="24.96" y1="-3.89" x2="0.83" y2="-3.89" width="0.127" layer="21"/>
+<wire x1="0.83" y1="-3.89" x2="0.83" y2="3.89" width="0.127" layer="21"/>
+<text x="1.94" y="1.99" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.94" y="-3.18" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ZENERDIODE">
@@ -399,6 +409,30 @@
 <attribute name="POWER" value="0.5W" constant="no"/>
 <attribute name="RESISTANCE" value="100 MOhms" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ROX1001K00FKLB" prefix="R" uservalue="yes">
+<description>Metal Oxide Resistors 4watt 1Kohm 1% 100ppm</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ROX1001K00FKLB">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Vishay" constant="no"/>
+<attribute name="POWER" value="4W" constant="no"/>
+<attribute name="R" value="1000" constant="no"/>
+<attribute name="SERIES" value="ROX100" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VOLTAGERATING" value="7.5KV" constant="no"/>
 </technology>
 </technologies>
 </device>

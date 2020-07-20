@@ -351,6 +351,7 @@
 <text x="-4.35" y="-2.95" size="0.6096" layer="94">V-</text>
 <text x="-3.39" y="-0.35" size="0.6096" layer="94">OUT</text>
 <text x="-7.05" y="4.9" size="0.6096" layer="94">EN</text>
+<text x="-3" y="2" size="1.4224" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="CRCW08054K00FKTA">
 <wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
